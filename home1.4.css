@@ -185,23 +185,44 @@
     align-items: start;
     text-align: left;
 }
-.quote-mark{
-    color: #69B99D;
-    font-size: 40px;
-    font-family: Georgia, serif;
-    line-height: 1;
-    margin-bottom: 10px;
-}
 .header32, .header35{
     color: #767676;
     margin-bottom: 24px;
 }
-.user-name{
-    font-size: 16px;
-    color: #767676;
+.header0000{
+    max-width: 1200px;
+    font-family: sans-serif;
+    text-align: start;
 }
 
-
+.header36{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+    margin-left:190px;
+    margin-top: 50px;
+}
+.header38{
+    width: 400px;
+    height: 60px;
+}
+.header37{
+    margin-bottom: 24px;
+    color:black;
+    font-size: 36px;
+    font-weight: 700;
+    width: 300px;
+    height: 80px;
+}
+.header43, .header38, .header39, .header41, .header42{
+    color: #767676;
+    margin-bottom: 24px;
+}
+.card4{
+     margin-top: 50px;
+     margin-left: -100px;
+}
 
 
 
@@ -303,5 +324,24 @@
     .card23{
         display: none;
     }
-
+         .header36 {
+        flex-direction: column;
+        align-items: start;
+        text-align: left;
+        gap: 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 20px;
+    }
+    .header37, .header41{
+        width: 100%;
+        max-width: 100%;
+    }
+    .header38{
+        font-size: 28px;
+    }
+    .header40{
+        width: 70%; 
+        padding-top: 50px;
+    }
 }
